@@ -2,7 +2,7 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 console.log(chocolateBars);
 
 function addElementToBeginningOfArray() {
-  var test = ["a", "b", "c"]
-  test.push("d")
+  var test = ["foo"]
+  test.push(1)
   return test;
 }
